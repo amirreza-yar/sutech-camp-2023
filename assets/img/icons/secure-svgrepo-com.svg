@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="519"
+   height="657"
+   viewBox="0 0 41.52 52.56"
+   stroke-width="3"
+   stroke="#000000"
+   fill="none"
+   version="1.1"
+   id="svg2799"
+   sodipodi:docname="secure-svgrepo-com.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2803" />
+  <sodipodi:namedview
+     id="namedview2801"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0625"
+     inkscape:cx="6.1176471"
+     inkscape:cy="222.11765"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2799" />
+  <g
+     id="g4037"
+     transform="translate(-11.239988,-5.6140674)"
+     style="stroke-width:2.4;stroke-dasharray:none">
+    <g
+       id="g4031"
+       style="stroke-width:2.4;stroke-dasharray:none">
+      <path
+         id="path2795"
+         style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.4;stroke-dasharray:none"
+         d="M 39.48953,9.7781269 32.48,7.18 a 1,1 0 0 0 -0.74,0.01 v 0 l -18.38,7.66 a 1,1 0 0 0 -0.62,0.93 v 16.33 0 a 22.89,22.89 0 0 0 11.19,19.67 l 8.18,4.86 8.06,-4.85 A 22.87,22.87 0 0 0 51.26,32.19 V 14.84 A 1,1 0 0 0 50.61,13.9 l -0.792828,-0.293867" />
+      <path
+         id="path3633"
+         style="fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 46.271343,12.091257 -3.10878,-1.100786" />
+      <path
+         id="polyline2797"
+         d="m 22.01,33.5 7.43,5.62 13.12,-18.43"
+         style="stroke-linecap:round;stroke-linejoin:round;stroke-width:2.4;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

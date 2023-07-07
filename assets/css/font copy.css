@@ -26,6 +26,11 @@
         url('./../fonts/sahel-black/Sahel-Black.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 
+@font-face {
+    font-family: 'Monsie';
+    src: url('./../fonts/MonsieurLaDoulaise-Regular/MonsieurLaDoulaise-Regular.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
 .font-sahel {
     font-family: Sahel;
 }
@@ -40,4 +45,8 @@
 
 .font-tanha {
     font-family: Tanha;
+}
+
+.font-monsie {
+    font-family: Monsie;
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   mirror-in-rtl="true"
+   version="1.1"
+   id="svg1552"
+   sodipodi:docname="course-tile-sort-svgrepo-com.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1556" />
+  <sodipodi:namedview
+     id="namedview1554"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.265625"
+     inkscape:cx="-717.17647"
+     inkscape:cy="-176.94118"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1552" />
+  <path
+     id="path1980"
+     style="color:#000000;fill:#333333;-inkscape-stroke:none"
+     d="M 1.6426172,0 C 0.73134663,0 0,0.73011783 0,1.6426172 V 7.3574414 C 0,8.2693773 0.73380553,9 1.6426172,9 H 7.3574414 C 8.2699408,9 9,8.2699408 9,7.3574414 V 1.6426172 C 9,0.73011783 8.2699408,0 7.3574414,0 Z m 0,1.0000195 h 5.7148242 c 0.3698589,0 0.6425976,0.2727387 0.6425976,0.6425977 v 5.7148242 c 0,0.3698589 -0.2727387,0.6425976 -0.6425976,0.6425976 H 1.6426172 c -0.369859,0 -0.6425977,-0.2771247 -0.6425977,-0.6425976 V 1.6426172 c 0,-0.365473 0.2727387,-0.6425977 0.6425977,-0.6425977 z"
+     sodipodi:nodetypes="ssssssssssssssssss" />
+  <path
+     id="path1985"
+     style="color:#000000;fill:#333333;-inkscape-stroke:none"
+     d="M 1.6426172,15 C 0.73134663,15 0,15.730118 0,16.642617 v 5.714824 C 0,23.269377 0.73380553,24 1.6426172,24 H 7.3574414 C 8.2699408,24 9,23.269941 9,22.357441 V 16.642617 C 9,15.730118 8.2699408,15 7.3574414,15 Z m 0,1.000019 h 5.7148242 c 0.3698589,0 0.6425976,0.272739 0.6425976,0.642598 v 5.714824 c 0,0.369859 -0.2727387,0.642598 -0.6425976,0.642598 H 1.6426172 c -0.369859,0 -0.6425977,-0.277125 -0.6425977,-0.642598 v -5.714824 c 0,-0.365473 0.2727387,-0.642598 0.6425977,-0.642598 z"
+     sodipodi:nodetypes="ssssssssssssssssss" />
+  <path
+     id="path1987"
+     style="color:#000000;fill:#333333;-inkscape-stroke:none"
+     d="M 16.642617,15 C 15.731347,15 15,15.730118 15,16.642617 v 5.714824 C 15,23.269377 15.733806,24 16.642617,24 h 5.714824 C 23.269941,24 24,23.269941 24,22.357441 V 16.642617 C 24,15.730118 23.269941,15 22.357441,15 Z m 0,1.000019 h 5.714824 c 0.369859,0 0.642598,0.272739 0.642598,0.642598 v 5.714824 c 0,0.369859 -0.272739,0.642598 -0.642598,0.642598 h -5.714824 c -0.369859,0 -0.642598,-0.277125 -0.642598,-0.642598 v -5.714824 c 0,-0.365473 0.272739,-0.642598 0.642598,-0.642598 z"
+     sodipodi:nodetypes="ssssssssssssssssss" />
+  <path
+     id="path1989"
+     style="color:#000000;fill:#333333;-inkscape-stroke:none"
+     d="m 19.475104,0.48359986 c -0.644366,-0.64436522 -1.677777,-0.64523426 -2.323012,0 l -4.04099,4.04099084 c -0.644837,0.644836 -0.642586,1.6803437 4.1e-5,2.3229701 l 4.04099,4.0409902 c 0.645235,0.645235 1.677695,0.645235 2.32293,1e-6 l 4.04099,-4.0409911 c 0.645235,-0.6452342 0.645276,-1.6777353 4.1e-5,-2.3229702 z m -0.707121,0.70712024 4.040991,4.0409908 c 0.26153,0.2615298 0.26153,0.647241 0,0.9087708 l -4.040991,4.0409903 c -0.261529,0.26153 -0.647241,0.26153 -0.90877,0 L 13.818222,6.1404816 c -0.26153,-0.2615298 -0.258429,-0.6503423 0,-0.9087707 l 4.040991,-4.0409908 c 0.258428,-0.25842844 0.647241,-0.26152984 0.90877,0 z"
+     sodipodi:nodetypes="ssssssssssssssssss" />
+</svg>
