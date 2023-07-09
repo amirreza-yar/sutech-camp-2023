@@ -462,15 +462,18 @@
         const [red, green, blue] = [255, 160, -150];
 
         window.addEventListener('scroll', () => {
-            let y = 1 + (window.scrollY || window.pageYOffset) / 20;
+            let y = 1 + (window.scrollY || window.pageYOffset) / 11;
             // if (y <= 10 & y >= 0) {
                 
             // }
+            
+            // console.log()
             console.log(y);
+            console.log(Math.sin(180*(3.1428/180)))
             y = y < 1 ? 1 : y
-            const [r, g, b] = [red - y/2, green - y*2, blue - y*2].map(Math.round).map(Math.abs);
+            const [r, g, b] = [Math.sin((y + red)*(3.1428/180)) * 255, Math.sin((y + green)*(3.1428/180)) * 255, Math.sin((y + blue)*(3.1428/180)) * 255].map(Math.round).map(Math.abs);
             console.log([r, g, b]);
-            const [r2, g2, b2] = [r - 80, g - 80, b + 80].map(Math.round).map(Math.abs);
+            const [r2, g2, b2] = [Math.sin((y + red + 50)*(3.1428/180)) * 255, Math.sin((y + green + 50)*(3.1428/180)) * 255, Math.sin((y + blue + 50)*(3.1428/180)) * 255].map(Math.round).map(Math.abs);
             document.getElementById('logo').style.backgroundImage = `-webkit-linear-gradient(45deg, rgb(${r}, ${g}, ${b}), rgb(${r2}, ${g2}, ${b2})`;
             // console.log(`linear-gradient(rgb(${r}, ${g}, ${b}), rgb(255,0,0))`)
         });
