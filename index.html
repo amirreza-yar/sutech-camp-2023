@@ -46,12 +46,13 @@
                     <div class="col-5 px-0 px-sm-1 text-center"><a id="logo"
                         class="mb-md-0 fs-0 font-1 fw-700 text-uppercase color-10" style="transition: all 0.5s ease;
                         color: #7319fa;
-                        /* background-image: -webkit-linear-gradient(45deg, #7319fa, #ff33b4, #ff7e29); */
+                        background-image: -webkit-linear-gradient(45deg, 255, 200, 0);
                         background-clip: text;
                         -webkit-background-clip: text;
                         text-fill-color: transparent;
                         -webkit-text-fill-color: transparent;" href="index.html">SUTECH CAMP
                         2023</a></div>
+                        
 
                     <div class="col text-left pr-0 pr-sm-1 fs-2">
                         <a class="font-sahel-bold btn btn-outline-danger btn-xs mr-3 fw-800" href="#">ثـبـت‌ نـام
@@ -458,7 +459,7 @@
         //     }
         // });
 
-        const [red, green, blue] = [255, 200, 0];
+        const [red, green, blue] = [255, 160, -150];
 
         window.addEventListener('scroll', () => {
             let y = 1 + (window.scrollY || window.pageYOffset) / 20;
@@ -467,7 +468,7 @@
             // }
             console.log(y);
             y = y < 1 ? 1 : y
-            const [r, g, b] = [red - y/2, green - y, blue + y].map(Math.round).map(Math.abs);
+            const [r, g, b] = [red - y/2, green - y*2, blue - y*2].map(Math.round).map(Math.abs);
             console.log([r, g, b]);
             const [r2, g2, b2] = [r - 80, g - 80, b + 80].map(Math.round).map(Math.abs);
             document.getElementById('logo').style.backgroundImage = `-webkit-linear-gradient(45deg, rgb(${r}, ${g}, ${b}), rgb(${r2}, ${g2}, ${b2})`;
