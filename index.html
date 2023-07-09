@@ -40,9 +40,18 @@
                             href="#"><i class="fa fa-telegram"></i></a><a class="p-2 color-8" href="#"><i
                                 class="fa fa-instagram"></i></a>
                     </div>
-                    <div class="col-5 px-0 px-sm-1 text-center"><a
-                            class="mb-md-0 fs--1 font-1 fw-700 text-uppercase color-10" href="index.html">SUTECH CAMP
-                            2023</a></div>
+                    <!-- <div class="col-5 px-0 px-sm-1 text-center"><a id="logo1"
+                            class="mb-md-0 fs-0 font-1 fw-700 text-uppercase color-8"  href="index.html">SUTECH CAMP
+                            2023</a></div> -->
+                    <div class="col-5 px-0 px-sm-1 text-center"><a id="logo"
+                        class="mb-md-0 fs-0 font-1 fw-700 text-uppercase color-10" style="transition: all 0.5s ease;
+                        color: #7319fa;
+                        /* background-image: -webkit-linear-gradient(45deg, #7319fa, #ff33b4, #ff7e29); */
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        text-fill-color: transparent;
+                        -webkit-text-fill-color: transparent;" href="index.html">SUTECH CAMP
+                        2023</a></div>
 
                     <div class="col text-left pr-0 pr-sm-1 fs-2">
                         <a class="font-sahel-bold btn btn-outline-danger btn-xs mr-3 fw-800" href="#">ثـبـت‌ نـام
@@ -64,7 +73,7 @@
                         <h5 class="text-uppercase mb-5 font-sahel">ششمین دوره <span
                             class="typed-text fw-400 color-warning"
                             data-typed-text='["سرگرم کننده و مهیج", "عملی و معتبر", "به‌ روز و پرکاربرد", "گروهی و تیمی"]'></span></h5>
-                            <h1 class="fs-3 fs-sm-4 fs-lg-5 mb-3 px-0 text-bold">SUTECH CAMP 2023</h1>
+                            <h1 id="" class="fs-3 fs-sm-4 fs-lg-5 mb-3 px-0 text-bold">SUTECH CAMP 2023</h1>
                             <h3 class="text-center colo`r-10 fs-1 fs-sm-2 mb-3 fw-300 px-0 font-sahel"
                             style="line-height: 1.5;">کمپ منتخب <span class="font-sahel-bold color-danger">برنامه
                                 نویسی</span> و <span class="text-bold color-danger">IT</span></h3>
@@ -364,6 +373,15 @@
                         </div>
                     </div>
                 </div>
+                <!-- <h1 class="text-gradient" style="
+                    color: #7319fa;
+                    background-image: -webkit-linear-gradient(45deg, #7319fa, #ff33b4, #ff7e29);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    text-fill-color: transparent;
+                    -webkit-text-fill-color: transparent;">
+                    MY TEXT GRADIENT
+                </h1> -->
                 <!--/.row-->
             </div>
             <!--/.container-->
@@ -372,18 +390,12 @@
         <section class="text-center py-4">
             <div class="container">
                 <div class="row text-center">
-                    <div class="col pl-0"><img class="" height="30"
-                            src="assets/images/partners/partner-3.png"></img>
+                    <div class="col pl-0"><img class="" style="opacity: 0.6;" height="60"
+                            src="assets/images/partners/sutech.svg"></img>
                     </div>
-                    <div class="col px-0"><img class="" height="30"
-                            src="assets/images/partners/partner-5.png"></img>
+                    <div class="col px-0"><img class="" style="opacity: 0.6;" height="60"
+                            src="assets/images/partners/kanoon.svg"></img>
                     </div>
-                    <div class="col pr-0"><img class="" height="30"
-                            src="assets/images/partners/partner-6.png"></img>
-                    </div>
-                    <!-- <div class="col-6 col-md-3"><img class="" height="30"
-                            src="assets/images/partners/partner-7.png"></img>
-                    </div> -->
                 </div>
             </div>
             <!--/.container-->
@@ -433,6 +445,36 @@
     <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARdVcREeBK44lIWnv5-iPijKqvlSAVwbw&amp;callback=initMap"></script> -->
     <script src="assets/js/core.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        // window.addEventListener('scroll', () => {
+        //     const verticalScrollPx = window.scrollY || window.pageYOffset;
+        
+        //     if (verticalScrollPx < 500) {
+        //         document.getElementById('logo').style.color = 'red';
+        //     } else if (verticalScrollPx > 500 && verticalScrollPx < 1000) {
+        //         document.getElementById('logo').style.color = 'green';
+        //     } else {
+        //         document.getElementById('logo').style.color = 'lightblue';
+        //     }
+        // });
+
+        const [red, green, blue] = [255, 200, 0];
+
+        window.addEventListener('scroll', () => {
+            let y = 1 + (window.scrollY || window.pageYOffset) / 20;
+            // if (y <= 10 & y >= 0) {
+                
+            // }
+            console.log(y);
+            y = y < 1 ? 1 : y
+            const [r, g, b] = [red - y/2, green - y, blue + y].map(Math.round).map(Math.abs);
+            console.log([r, g, b]);
+            const [r2, g2, b2] = [r - 80, g - 80, b + 80].map(Math.round).map(Math.abs);
+            document.getElementById('logo').style.backgroundImage = `-webkit-linear-gradient(45deg, rgb(${r}, ${g}, ${b}), rgb(${r2}, ${g2}, ${b2})`;
+            // console.log(`linear-gradient(rgb(${r}, ${g}, ${b}), rgb(255,0,0))`)
+        });
+
+      </script>      
 </body>
 
 </html>
