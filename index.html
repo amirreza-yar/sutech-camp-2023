@@ -43,18 +43,65 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/font.css" rel="stylesheet" href="">
+    <style>
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            z-index: 99999;
+        }
+
+        .loader {
+            border: 16px solid #fff;
+            border-top: 16px solid #00152e;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 1s linear infinite;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -60px;
+            margin-left: -60px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+
+
+        main {
+            display: none;
+        }
+    </style>
+
 </head>
 
 <body>
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
     <main>
         <section class="background-1 color-8 py-2 fs--1 fw-600 font-heading sticky-top">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col pl-0 pl-sm-1 d-sm-block d-none">
-                         <a class="p-2 color-9 fs-0" href="mailto:ssait@sutech.ac.ir"><i class="fa fa-envelope "></i></a><a
-                            class="p-2 color-9 fs-0" href="https://t.me/SSAS_ITC"><i class="fa fa-telegram"></i></a><a
-                            class="p-2 color-9 fs-0" href="https://instagram.com/ssait_sutech?igshid=NGExMmI2YTkyZg=="><i class="fa fa-instagram"></i></a><a
-                            class="p-2 color-9 fs-0" href="tel:+989912388126"><i class="fa fa-phone"></i></a>
+                        <a class="p-2 color-9 fs-0" href="mailto:ssait@sutech.ac.ir"><i
+                                class="fa fa-envelope "></i></a><a class="p-2 color-9 fs-0"
+                            href="https://t.me/SSAS_ITC"><i class="fa fa-telegram"></i></a><a class="p-2 color-9 fs-0"
+                            href="https://instagram.com/ssait_sutech?igshid=NGExMmI2YTkyZg=="><i
+                                class="fa fa-instagram"></i></a><a class="p-2 color-9 fs-0" href="tel:+989912388126"><i
+                                class="fa fa-phone"></i></a>
                     </div>
                     <div class="col-sm-5 col-6 text-right text-sm-center pr-sm-6 pr-4"><a id="logo"
                             class="mb-md-0 fs-0 font-1 fw-700 text-uppercase color-10 align-items-center"
@@ -116,7 +163,8 @@
                                 class="typed-text fw-400 color-warning"
                                 data-typed-text='["سرگرم کننده و مهیج", "عملی و معتبر", "به‌ روز و پرکاربرد", "گروهی و تیمی"]'></span>
                         </h5>
-                        <h1 id="" class="fs-3 fs-sm-4 fs-lg-5 mb-3 px-0 text-bold" style="direction: ltr;">SUTECH CAMP 2023</h1>
+                        <h1 id="" class="fs-3 fs-sm-4 fs-lg-5 mb-3 px-0 text-bold" style="direction: ltr;">SUTECH CAMP
+                            2023</h1>
                         <h3 class="text-center colo`r-10 fs-1 fs-sm-2 mb-3 fw-300 px-0 font-sahel"
                             style="line-height: 1.5;">کمپ منتخب <span class="font-sahel-bold color-danger">برنامه
                                 نویسی</span> و <span class="text-bold color-danger">IT</span></h3>
@@ -138,9 +186,9 @@
                         </div>
                         <a class="btn btn-danger btn-sm-lg mt-6 font-sahel-bold fs--1 fs-sm-0 fs-lg-1 px-4 py-1"
                             href="https://azmoon.sutech.ac.ir/register/new/3473">ثـبـت‌ نـام</a>
-                        </div>
-                        <!-- <img src="assets/images/logo2.svg" class="pb-6" style="" alt="sutech camp logo"> -->
                     </div>
+                    <!-- <img src="assets/images/logo2.svg" class="pb-6" style="" alt="sutech camp logo"> -->
+                </div>
                 <!--/.row-->
             </div>
             <!--/.container-->
@@ -1047,10 +1095,12 @@
                         <p class="fs--1 mb-1" style="direction: ltr;">#SUTECH_CAMP</p>
                         <h4 class="font-sahel color-5 fs-0 lh-2 pt-2">راه‌های ارتباطی با<br><span
                                 class="text-bold font-sahel-bold color-2 fs-3">تــــیـــم مـا
-                            </span></h4><a class="p-2 color-3 fs-1" href="mailto:ssait@sutech.ac.ir"><i class="fa fa-envelope "></i></a><a
-                            class="p-2 color-3 fs-1" href="https://t.me/SSAS_ITC"><i class="fa fa-telegram"></i></a><a
-                            class="p-2 color-3 fs-1" href="https://instagram.com/ssait_sutech?igshid=NGExMmI2YTkyZg=="><i class="fa fa-instagram"></i></a><a
-                            class="p-2 color-3 fs-1" href="tel:+989912388126"><i class="fa fa-phone"></i></a><br>
+                            </span></h4><a class="p-2 color-3 fs-1" href="mailto:ssait@sutech.ac.ir"><i
+                                class="fa fa-envelope "></i></a><a class="p-2 color-3 fs-1"
+                            href="https://t.me/SSAS_ITC"><i class="fa fa-telegram"></i></a><a class="p-2 color-3 fs-1"
+                            href="https://instagram.com/ssait_sutech?igshid=NGExMmI2YTkyZg=="><i
+                                class="fa fa-instagram"></i></a><a class="p-2 color-3 fs-1" href="tel:+989912388126"><i
+                                class="fa fa-phone"></i></a><br>
                     </div>
                     <div class="col m-0 p-0 googlemap">
                         <iframe src="https://balad.ir/embed?p=13gf50GO1hOehH"
@@ -1199,6 +1249,8 @@
     <script src="assets/lib/semantic-ui-transition/transition.js"></script>
     <script>
         $(document).ready(function () {
+            $('.preloader').fadeOut('slow');
+            $('main').fadeIn();
 
             window.dataLayer = window.dataLayer || [];
 
