@@ -484,8 +484,18 @@
             </div>
             <div></div>
         </section>
-        <section class="" id="defaultVideo" style="height: 400px;">
-            <div class="background-holder" style="background-image:url(assets/images/header03.jpg);"></div>
+        <style>
+            #defaultVideo {
+                    height: 35vw;
+            }
+            @media screen and (max-width: 600px) {
+                #defaultVideo {
+                    height: 50vw;
+                }
+            }
+        </style>
+        <section class="" id="defaultVideo">
+            <div class="background-holder overlay overlay-4" style="background-image:url(assets/images/header05.jpg);"></div>
             <!-- end of .container-->
         </section>
         <section class="py-8 text-center">
@@ -562,17 +572,19 @@
                     <div class="col-12 col-xl-8">
                         <div class="tabs">
                             <div class="nav-bar nav-bar-center color-8 mb-5 text-uppercase">
-                                <div class="nav-bar-item fs--1 fs-md-0 active"><span
-                                        class="hidden-md-down font-sahel">شنبه,
+                                <div class="nav-bar-item fs--1 fs-md-0 active"><span class="hidden-md-down font-sahel">شنبه,
                                     </span><span class="font-sahel">۴شهریور</span></div>
-                                <div class="nav-bar-item fs--1 fs-md-0 active"><span class="font-sahel">روزهای زوج
+                                <div class="nav-bar-item fs--1 fs-md-0"><span class="font-sahel">روزهای زوج
                                     </span>
                                     <!-- <span class="font-sahel">۵شهریور</span> -->
                                 </div>
-                                <div class="nav-bar-item fs--1 fs-md-0 active"><span class="font-sahel">روزهای فرد
+                                <div class="nav-bar-item fs--1 fs-md-0"><span class="font-sahel">روزهای فرد
                                     </span>
                                     <!-- <span class="font-sahel">۶شهریور</span> -->
                                 </div>
+                                <!-- <div class="indicator transition-reverse" style="left: 428.967px; right: 122.966px;"></div>
+                                <div class="indicator transition-reverse" style="left: 428.967px; right: 122.966px;"></div>
+                                <div class="indicator transition-reverse" style="left: 428.967px; right: 122.966px;"></div> -->
                             </div>
                             <div class="tab-contents">
                                 <div class="tab-content active">
