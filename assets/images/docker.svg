@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   fill="none"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="docker.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.095"
+     inkscape:cx="275.34247"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <g
+     id="g338"
+     transform="matrix(1.1428571,0,0,1.1428571,-2.2857143,-2.2857143)"
+     style="stroke-width:0.875">
+    <circle
+       cx="16"
+       cy="16"
+       fill="#1794d4"
+       id="circle2"
+       r="14"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 18,7 h -2 v 2 h 2 z"
+       fill="#ffffff"
+       id="path4"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 10,10 h 2 v 2 h -2 z"
+       fill="#ffffff"
+       id="path6"
+       style="stroke-width:0.818488" />
+    <path
+       d="M 6.00155,16.9414 C 6.17244,19.8427 7.90027,24 14,24 c 6.8,0 9.8333,-5 10.5,-7.5 0.8333,0 2.7,-0.5 3.5,-2.5 -0.5,-0.5 -2.5,-0.5 -3.5,0 0,-0.8 -0.5,-2.5 -1.5,-3 -0.6667,0.6667 -1.7,2.4 -0.5,4 -0.5,1 -1.8333,1 -2.5,1 H 6.9429 c -0.52948,0 -0.97249,0.4128 -0.94135,0.9414 z"
+       fill="#ffffff"
+       id="path8"
+       style="stroke-width:0.818488" />
+    <path
+       d="M 9,13 H 7 v 2 h 2 z"
+       fill="#ffffff"
+       id="path10"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 10,13 h 2 v 2 h -2 z"
+       fill="#ffffff"
+       id="path12"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 15,13 h -2 v 2 h 2 z"
+       fill="#ffffff"
+       id="path14"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 16,13 h 2 v 2 h -2 z"
+       fill="#ffffff"
+       id="path16"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 21,13 h -2 v 2 h 2 z"
+       fill="#ffffff"
+       id="path18"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 15,10 h -2 v 2 h 2 z"
+       fill="#ffffff"
+       id="path20"
+       style="stroke-width:0.818488" />
+    <path
+       d="m 16,10 h 2 v 2 h -2 z"
+       fill="#ffffff"
+       id="path22"
+       style="stroke-width:0.818488" />
+  </g>
+</svg>
